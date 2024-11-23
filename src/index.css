@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter";
+    letter-spacing: -0.75px;
+}
+
+.subscriber-card{
+    margin: 5rem auto;
+    width: 30%;
+    background-color: #fdfdfd;
+    padding: 2rem;
+    border: 1px solid #d7d7d7;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.subscriber-card h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.alert-card{
+    background-color: #e4faea;
+    color: darkgreen;
+    padding: 0.85rem;
+}
+
+.subscriber-name{
+    background-color: white;
+    color: black;
+    width: 100%;
+    padding: 0.5rem;
+}
